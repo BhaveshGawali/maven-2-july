@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest123(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testpack.testclassReturntomessenge">
+        <methods>
+          <include name="LunchBrowser"/>
+          <include name="Logout"/>
+          <include name="CreateObject1"/>
+          <include name="afterTest"/>
+          <include name="OpenRoom"/>
+          <include name="CloseBrowser"/>
+          <include name="VerifyReturnMassenger"/>
+        </methods>
+      </class> <!-- testpack.testclassReturntomessenge -->
+    </classes>
+  </test> <!-- ChromeTest123(failed) -->
+  <test thread-count="5" name="FireBoxTest123(failed)">
+    <parameter name="browser" value="FireBox"/>
+    <classes>
+      <class name="testpack.testclassReturntomessenge">
+        <methods>
+          <include name="LunchBrowser"/>
+          <include name="Logout"/>
+          <include name="CreateObject1"/>
+          <include name="afterTest"/>
+          <include name="OpenRoom"/>
+          <include name="CloseBrowser"/>
+          <include name="VerifyReturnMassenger"/>
+        </methods>
+      </class> <!-- testpack.testclassReturntomessenge -->
+      <class name="testpack.TestClassHelpcenterButton">
+        <methods>
+          <include name="OpenRoom"/>
+          <include name="Logout"/>
+          <include name="LunchBrowser"/>
+          <include name="VerifyReturnMassenger"/>
+          <include name="afterTest"/>
+          <include name="CloseBrowser"/>
+          <include name="CreateObject1"/>
+        </methods>
+      </class> <!-- testpack.TestClassHelpcenterButton -->
+    </classes>
+  </test> <!-- FireBoxTest123(failed) -->
+  <test thread-count="5" name="OpreaBrwoser(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="testpack.testclassReturntomessenge">
+        <methods>
+          <include name="LunchBrowser"/>
+          <include name="Logout"/>
+          <include name="CreateObject1"/>
+          <include name="afterTest"/>
+          <include name="OpenRoom"/>
+          <include name="CloseBrowser"/>
+          <include name="VerifyReturnMassenger"/>
+        </methods>
+      </class> <!-- testpack.testclassReturntomessenge -->
+      <class name="testpack.TestClassHelpcenterButton">
+        <methods>
+          <include name="OpenRoom"/>
+          <include name="Logout"/>
+          <include name="LunchBrowser"/>
+          <include name="VerifyReturnMassenger"/>
+          <include name="afterTest"/>
+          <include name="CloseBrowser"/>
+          <include name="CreateObject1"/>
+        </methods>
+      </class> <!-- testpack.TestClassHelpcenterButton -->
+    </classes>
+  </test> <!-- OpreaBrwoser(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->

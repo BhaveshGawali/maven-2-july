@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+  <test  name="ChromeTest123">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      
+      <class name="testpack.TestClassHelpcenterButton"/>
+      <class name="testpack.testclassReturntomessenge"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="FireBoxTest123">
+   <parameter name="browser" value="FireBox"/>
+  <classes>
+      
+       <class name="testpack.TestClassHelpcenterButton"/>
+      <class name="testpack.testclassReturntomessenge"/>
+    </classes> 
+    
+  </test>
+  
+    <test  name="OpreaBrwoser">
+   <parameter name="browser" value="Opera"/>
+  <classes>
+      
+       <class name="testpack.TestClassHelpcenterButton"/>
+      <class name="testpack.testclassReturntomessenge"/>
+    </classes> 
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

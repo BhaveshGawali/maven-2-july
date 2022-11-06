@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
+	
+	// GIT HUB ///
 	@FindBy (xpath="//input[@id='email']")
 	private WebElement username;
 	

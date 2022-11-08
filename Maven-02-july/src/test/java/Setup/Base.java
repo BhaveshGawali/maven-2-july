@@ -8,7 +8,7 @@ import org.openqa.selenium.opera.OperaDriver;
 
 public class Base {
 
-	
+	// ***********  git  ************//
 	//Browser related code
 	public static WebDriver OpenChromeBrowser() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Bhavesh\\Documents\\instalation\\chromedriver.exe");
